@@ -38,7 +38,7 @@ def pipini():
     |___|  |__||   __||__||__|__||__|___|___||___._|____||__|__|
                |__|       Made In Italy                                      
 
-    TG: @PipinoMat - GitHub: /PipinoMat""")
+    TG: @YoungestMoonstar - GitHub: /PipinoMat""")
 
 def verifica(config):
     host = config["HOST"]
