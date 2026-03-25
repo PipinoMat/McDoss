@@ -28,3 +28,10 @@ python3 mcdoss.py
 -ALL REQUIREMENTS.TXT  
 
 ### ⚠️Use this program only for educational purpose, every abuse on public server it's ILLEGAL!⚠️
+
+
+<a href="https://google.com" style="text-decoration:none;">
+  <span style="background-color:#4CAF50;color:white;padding:10px 20px;border-radius:5px;">
+    BUY ME A COFFE <3
+  </span>
+</a>
