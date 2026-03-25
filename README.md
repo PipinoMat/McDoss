@@ -1,7 +1,7 @@
 # McDoss v1.0.0
 A tool in python used for Doss a server minecraft sending bot and packages to a customized port and host.
 
-<img src="https://github.com/PipinoMat/McDoss/blob/main/asset/main.png" width="500">
+<img src="https://github.com/PipinoMat/McDoss/blob/main/asset/main1.png" width="500">
 
 ## Tool Tested on 1.12.2 server✅(Java 8)
 
