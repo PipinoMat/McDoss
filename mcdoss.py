@@ -49,8 +49,6 @@ def verifica(config):
     try:
         result = subprocess.run(
             ["nc", "-zv", host, str(port)],
-            text=True,
-            capture_output=True,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             universal_newlines=True
