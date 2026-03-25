@@ -6,7 +6,7 @@ from scapy.layers.inet import IP, UDP
 from scapy.packet import Raw
 from scapy.sendrecv import send
 import os
-import subprocess
+import socket
 
 
 config = {
@@ -40,26 +40,23 @@ def pipini():
 
     TG: @YoungestMoonstar - GitHub: /PipinoMat""")
 
+
 def verifica(config):
     host = config["HOST"]
     port = config["PORT"]
 
     print(f"\n🔎 Verifica connessione {host}:{port}...\n")
 
+    s = socket.socket()
+    s.settimeout(2)
+
     try:
-        result = subprocess.run(
-            ["nc", "-zv", host, str(port)],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            universal_newlines=True
-        )
-
-        # output del comando
-        print(result.stdout)
-        print(result.stderr)
-
-    except FileNotFoundError:
-        print("❌ nc non è installato sul sistema")
+        s.connect((host, port))
+        print("✅ Connessione riuscita")
+    except Exception as e:
+        print("❌ Errore:", e)
+    finally:
+        s.close()
 
 
 def main(config):
