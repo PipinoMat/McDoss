@@ -50,7 +50,10 @@ def verifica(config):
         result = subprocess.run(
             ["nc", "-zv", host, str(port)],
             text=True,
-            capture_output=True
+            capture_output=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            universal_newlines=True
         )
 
         # output del comando
