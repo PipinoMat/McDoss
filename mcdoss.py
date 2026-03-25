@@ -38,7 +38,7 @@ def pipini():
     |___|  |__||   __||__||__|__||__|___|___||___._|____||__|__|
                |__|       Made In Italy                                      
 
-    TG: @PipinoMat - IG: @PipinoMat - GitHub: /PipinoMat""")
+    TG: @PipinoMat - GitHub: /PipinoMat""")
 
 def verifica(config):
     host = config["HOST"]
@@ -185,7 +185,5 @@ def menu():
         else:
             print("❌ Scelta non valida")
 
-
-# 🔥 IMPORTANTISSIMO: NON parte nulla da solo
 if __name__ == "__main__":
     menu()
