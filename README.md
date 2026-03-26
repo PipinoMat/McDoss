@@ -12,8 +12,13 @@ cd McDoss
 pip3 install -r requirements.txt
 python3 mcdoss.py
 ```
+### If you get error on installing PyCraft from requirement.txt use this command then:
+```
+pip install git+https://github.com/ammaraskar/pyCraft
+```
 
 <img src="https://github.com/PipinoMat/McDoss/blob/main/asset/conf.png" width="500">
+-------------------------------------------------------------------
 <img src="https://github.com/PipinoMat/McDoss/blob/main/asset/nc.png" width="500">
 
 ## Some advise
