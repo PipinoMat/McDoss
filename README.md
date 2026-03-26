@@ -36,5 +36,5 @@ pip install git+https://github.com/ammaraskar/pyCraft
 
 
 <a href="buymeacoffee.com/pipinomat">
-  <button>SOSTAIN THIS PROJECT FOR FUTURE VERSIONS <3</button>
+  <button>SUPPORT THIS PROJECT FOR FUTURE VERSIONS <3</button>
 </a>
