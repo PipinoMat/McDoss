@@ -6,12 +6,14 @@ A tool in python used for Doss a server minecraft sending bot and packages to a 
 ## Tool Tested on 1.12.2 server✅(Java 8)
 
 ### Install and Usage Tool🛠
+╔═══════════════════════════ ஜ۩☆۩ஜ ══════════════════════════╗
 ```
 git clone https://github.com/PipinoMat/McDoss.git
 cd McDoss
 pip3 install -r requirements.txt
 python3 mcdoss.py
 ```
+╚═══════════════════════════ ஜ۩☆۩ஜ ══════════════════════════╝
 ### If you get error on installing PyCraft from requirement.txt use this command then:
 ```
 pip install git+https://github.com/ammaraskar/pyCraft
