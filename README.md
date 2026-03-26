@@ -35,6 +35,6 @@ pip install git+https://github.com/ammaraskar/pyCraft
 ### ⚠️Use this program only for educational purpose, every abuse on public server it's ILLEGAL!⚠️
 
 
-<a href="buymeacoffee.com/pipinomat">
+<a href="https://buymeacoffee.com/pipinomat">
   <button>SUPPORT THIS PROJECT FOR FUTURE VERSIONS <3</button>
 </a>
